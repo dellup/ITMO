@@ -1,7 +1,0 @@
-<RCC>
-  <qresource prefix="newPrefix">
-    <file>icons/add.svg</file>
-    <file>icons/cart.svg</file>
-    <file>icons/delete.svg</file>
-  </qresource>
-</RCC>
