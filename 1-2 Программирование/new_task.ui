@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>523</width>
+    <height>471</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgba(250,250,250,100);
+font-family: Noto Sans;
+color: black;
+</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_2">
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 30);
+border: 1px solid rgba(255, 255, 255, 40);
+border-radius: 7px;
+color: black;
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Shape::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="styleSheet">
+           <string notr="true">font-size: 25px; 
+border: none;
+font-weight: bold;
+background-color: rgba(255,255,255,100);
+color: black;
+</string>
+          </property>
+          <property name="text">
+           <string>Создать заявку</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineWeight">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgba(255,255,255,100);
+</string>
+          </property>
+          <property name="placeholderText">
+           <string>Введи вес груза</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineLength">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgba(255,255,255,100);
+</string>
+          </property>
+          <property name="placeholderText">
+           <string>Введи длину груза</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineWidth">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgba(255,255,255,100);
+</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="placeholderText">
+           <string>Введи ширину груза</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineHeight">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgba(255,255,255,100);
+</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="placeholderText">
+           <string>Введи высоту груза</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="buttonOK">
+          <property name="styleSheet">
+           <string notr="true">height: 50px;
+background-color: rgba(255,255,255,100);
+border:none;</string>
+          </property>
+          <property name="text">
+           <string>Подобрать транспорт</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
