@@ -7,6 +7,10 @@ body {
   color: rgb(var(--bs-tertiary-color-rgb));
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  font-size: 18px;
+}
+.lead {
+  font-size: 18px !important;
 }
 
 .bd-placeholder-img {
