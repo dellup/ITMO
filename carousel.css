@@ -187,6 +187,10 @@ ul {
   flex-wrap: wrap;
   gap: 20px;
 }
+.fw-normal {
+  margin-bottom: 2px;
+  padding-top: 14px;
+}
 .lst-group ul{
   display: flex;
   gap: 60px;
