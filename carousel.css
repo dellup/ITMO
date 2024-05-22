@@ -111,6 +111,7 @@ body {
 }
 .carousel__text-title{
   text-align: center;
+
 }
 .carousel__text p{
   display: flex;
@@ -240,7 +241,7 @@ ul {
   padding-top: 220px;
   padding-bottom: 340px;
   display: flex;
-  padding-left: 130px;
+  padding-left: 7vw;
   width: 100%;
   height: 100%;
   background: rgba(0,0,0,0.4);
@@ -282,11 +283,16 @@ input{
 }
 
 .review-p {
-  max-width: 50%;
-  text-align: center;
+  max-width: 60%;
+  text-align: left;
   margin: 0 auto;
+  line-height: 1.5;
+  max-width: 30ch;
+  padding-left: 10px;
 }
-
+.text-blck {
+  padding-left: 3vw;
+}
 
 /* rtl:end:remove */
 
@@ -300,6 +306,7 @@ input{
     font-size: 1.25rem;
     line-height: 1.4;
   }
+  
 
   .featurette-heading {
     font-size: 50px;
@@ -311,7 +318,7 @@ input{
     margin-top: 7rem;
   }
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 918px){
   .boat-container .boat-info{
     max-width: 100%;
     min-width: auto;
@@ -332,14 +339,12 @@ input{
     max-width: 100%;
   }
 }
-@media screen and (max-width: 550px){
+@media screen and (max-width: 690px){
   .carousel__text{
     padding: 0px 10px;
     width: 100%;
   }
-  .carousel__text-title{
-    font-size: 12vw !important;
-  }
+  
   .boat-h1{
     margin-top: 0 !important;
     max-width: 90%;
@@ -353,6 +358,29 @@ input{
   }
   .lst-group ul {
     gap: 20px;
+  }
+  
+}
+
+
+
+@media screen and (max-width: 1139px) {
+  .footer-container-form h2 {
+    max-width: 70%;
+    padding-bottom: 5px;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1015px) {
+  .footer-container-filter h2 {
+    max-width: 60%;
+  }
+}
+@media screen and (max-width: 950px) {
+  .footer-container-form h2 {
+    max-width: 85%;
+    padding-bottom: 5px;
+    flex-direction: column;
   }
   
 }
