@@ -259,6 +259,9 @@ ul {
   text-align: center;
   margin-bottom: 20px;
 }
+.maks {
+  max-width: 23ch !important;
+}
 .reviews-container {
   margin-bottom: 150px;
 }
