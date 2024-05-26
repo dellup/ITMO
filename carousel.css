@@ -9,11 +9,9 @@ body {
   font-weight: 400;
   font-size: 18px;
   box-sizing: border-box;
+  max-width: 100%;
+  overflow-x: hidden;
 }
-.lead {
-  font-size: 18px !important;
-}
-
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -189,8 +187,13 @@ ul {
   
 }
 
+.btn:hover {
+  background-color: #c4551f !important; /* Цвет при наведении (чуть темнее) */
+}
+
 .btn {
   background-color: #E7632B !important;
+  transition: background-color 0.3s; /* Плавная анимация изменения цвета */
   border: none;
 }
 
@@ -229,6 +232,8 @@ ul {
 .lead {
   max-width: 80%;
   line-height: 1.5rem;
+  font-size: 18px !important;
+  margin-bottom: 24px;
 }
 .content {
   padding: 7rem 0;
@@ -263,10 +268,29 @@ ul {
 .two  {
   display: inline-block;
 }
+.lft {
+  padding-left: 90px;
+}
+.mdl {
+  padding-left: 48px;
+}
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 16 16'%3e%3cpath d='M6 3.5l-1.5 1.5 4 4-4 4 1.5 1.5 5.5-5.5z'/%3e%3c/svg%3e"); /* Черная иконка для левой кнопки */
 }
-
+.rw-ar {
+  width: 7% !important;
+} 
+.img-rvws {
+  transform: translateY(10px);
+  margin-right: 12px;
+}
+.name {
+  text-align: left;
+  padding-left: 10px;
+}
+.rvws {
+  display: flex;
+}
 .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 16 16'%3e%3cpath d='M10 3.5l1.5 1.5-4 4 4 4-1.5 1.5-5.5-5.5z'/%3e%3c/svg%3e"); /* Черная иконка для правой кнопки */
 }
@@ -319,18 +343,29 @@ ul {
   margin-bottom: 20px;
   padding: 10px 5px
 }
-
+.boat-advantages {
+  margin-bottom: 35px;
+}
 input{
   border: 0 none;
   outline: 0 none;
 }
-
+.px-8 {
+  padding-right: 3rem !important;
+  padding-left: 3rem !important;
+}
+.btn-top {
+  display: flex;
+  margin: 0 auto;
+  width: fit-content;
+  align-items: center;
+}
 .review-p {
   max-width: 60%;
   text-align: left;
   margin: 0 auto;
   line-height: 1.5;
-  max-width: 30ch;
+  max-width: 25ch;
   padding-left: 10px;
 }
 .text-blck {
@@ -374,6 +409,10 @@ input{
   .boat-container .boat-info{
     max-width: 100%;
     min-width: auto;
+  }
+  .boat-container {
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .boat-h1{
     margin-top: 0 !important;
