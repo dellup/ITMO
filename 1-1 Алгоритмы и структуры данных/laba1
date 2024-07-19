@@ -1,0 +1,13 @@
+a = [int(x) for x in range(2**23)]
+num = int(input("Введите искомое число от 0 до 8388608: "))
+count = 0
+while len(a) > 0:
+    middle = len(a) // 2
+    count+=1
+    if a[middle] == num:
+        print("Потребовалось столько попыток: " + str(count))
+        break
+    elif a[middle] < num:
+        a = a[middle+1:]
+    else:
+        a = a[:middle]
