@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\zenin\\ITMO\\ITMO\\2-1 \u041E\u0431\u044A\u0435\u043A\u0442\u043D\u043E-\u043E\u0440\u0438\u0435\u043D\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F 8\\ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9826411-A131-4F80-A42F-B76B6694430B}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\zenin\\itmo\\itmo\\2-1 \u043E\u0431\u044A\u0435\u043A\u0442\u043D\u043E-\u043E\u0440\u0438\u0435\u043D\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F 8\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9826411-A131-4F80-A42F-B76B6694430B}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9826411-A131-4F80-A42F-B76B6694430B}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\zenin\\itmo\\itmo\\2-1 \u043E\u0431\u044A\u0435\u043A\u0442\u043D\u043E-\u043E\u0440\u0438\u0435\u043D\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F 8\\consoleapp1\\consoleapp1\\ipubs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9826411-A131-4F80-A42F-B76B6694430B}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\ipubs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9826411-A131-4F80-A42F-B76B6694430B}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\zenin\\itmo\\itmo\\2-1 \u043E\u0431\u044A\u0435\u043A\u0442\u043D\u043E-\u043E\u0440\u0438\u0435\u043D\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F 8\\consoleapp1\\consoleapp1\\magazine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9826411-A131-4F80-A42F-B76B6694430B}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\magazine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Magazine.cs",
+              "DocumentMoniker": "C:\\Users\\zenin\\ITMO\\ITMO\\2-1 \u041E\u0431\u044A\u0435\u043A\u0442\u043D\u043E-\u043E\u0440\u0438\u0435\u043D\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F 8\\ConsoleApp1\\ConsoleApp1\\Magazine.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Magazine.cs",
+              "ToolTip": "C:\\Users\\zenin\\ITMO\\ITMO\\2-1 \u041E\u0431\u044A\u0435\u043A\u0442\u043D\u043E-\u043E\u0440\u0438\u0435\u043D\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F 8\\ConsoleApp1\\ConsoleApp1\\Magazine.cs",
+              "RelativeToolTip": "ConsoleApp1\\Magazine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T14:56:22.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IPubs.cs",
+              "DocumentMoniker": "C:\\Users\\zenin\\ITMO\\ITMO\\2-1 \u041E\u0431\u044A\u0435\u043A\u0442\u043D\u043E-\u043E\u0440\u0438\u0435\u043D\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F 8\\ConsoleApp1\\ConsoleApp1\\IPubs.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\IPubs.cs",
+              "ToolTip": "C:\\Users\\zenin\\ITMO\\ITMO\\2-1 \u041E\u0431\u044A\u0435\u043A\u0442\u043D\u043E-\u043E\u0440\u0438\u0435\u043D\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F 8\\ConsoleApp1\\ConsoleApp1\\IPubs.cs",
+              "RelativeToolTip": "ConsoleApp1\\IPubs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T14:53:21.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\zenin\\ITMO\\ITMO\\2-1 \u041E\u0431\u044A\u0435\u043A\u0442\u043D\u043E-\u043E\u0440\u0438\u0435\u043D\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F 8\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\zenin\\ITMO\\ITMO\\2-1 \u041E\u0431\u044A\u0435\u043A\u0442\u043D\u043E-\u043E\u0440\u0438\u0435\u043D\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u0430\u044F 8\\ConsoleApp1\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T14:52:57.783Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
