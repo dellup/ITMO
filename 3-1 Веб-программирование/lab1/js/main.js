@@ -1,0 +1,1 @@
+console.log("ura ura magazin")
