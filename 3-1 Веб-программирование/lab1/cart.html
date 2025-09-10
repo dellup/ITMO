@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/cart.css">
+    <title>Brainrot shop -- Корзина</title>
+</head>
+<body>
+    <header>
+            <div class="container">
+                <div class="header__wrap">
+                    <div class="header__title"><a href="index.html"><h2>Brainrot shop</h2></a></div>
+                    <div class="header__cart"><a href="#"><img src="img/cart.svg" alt="cart"></a></div>
+                </div>
+            </div>      
+        </header>
+    <main>
+        <section class="title">
+            <div class="container">
+                <h1>Корзина</h1>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="container">
+                <template id="cart__itemTmpl">
+                    <div class="cart__item" data-id="">
+                        <div class="cart__itemImg">
+                            <img class="cart__img" src="" alt="">
+                        </div>
+                        <div class="cart__itemInfo">
+                            <h3 class="cart__title"></h3>
+                            <div class="cart__price"></div>
+                            <div class="cart__controls">
+                                <button class="cart__btn cart__dec" type="button">−</button>
+                                <span class="cart__count">1</span>
+                                <button class="cart__btn cart__inc" type="button">+</button>
+                                <button class="cart__btn cart__remove" type="button">Удалить</button>
+                            </div>
+                        </div>
+                        <div class="cart__itemSum"></div>
+                    </div>
+                </template>
+                <h2 class="cart__total"></h2>
+            </div>
+        </section>
+    </main>
+    <script src="js/cart.js"></script>
+</body>
+</html>
