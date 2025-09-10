@@ -281,3 +281,30 @@ header {
     padding: 24px;
   }
 }
+.cart__toggleOrder {
+  display: block;
+  width: 100%;
+  padding: 12px 16px;
+  margin-top: 12px;
+  border-radius: 12px;
+  background: #CBEE4C;
+  font-weight: 800;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.order__accordion {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  -webkit-transition: max-height 0.3s ease, opacity 0.3s ease;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  will-change: max-height, opacity;
+}
+
+.order__accordion.is-open {
+  max-height: 2000px;
+  opacity: 1;
+  margin-top: 16px;
+}

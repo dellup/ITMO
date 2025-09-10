@@ -105,3 +105,18 @@ form.addEventListener("submit", () => {
     alert("Заказ успешно создан.");
 
 })
+
+
+const toggleBtn = document.querySelector('.cart__toggleOrder');
+const accordion = document.querySelector('.order__accordion');
+
+if (toggleBtn && accordion) {
+  toggleBtn.addEventListener('click', () => {
+    accordion.classList.toggle('is-open');
+    if (accordion.classList.contains('is-open')) {
+      accordion.hidden = false;
+    } else {
+      setTimeout(() => { accordion.hidden = true; }, 300);
+    }
+  });
+}
