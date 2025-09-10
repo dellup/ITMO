@@ -47,6 +47,45 @@
                 <h2 class="cart__total"></h2>
             </div>
         </section>
+        <section class="order">
+            <div class="container">
+                <form class="order__form" id="orderForm">
+                    <div class="order__formGrid">
+                        <div class="order__formField">
+                            <label for="firstName">Имя</label>
+                            <input type="text" id="firstName" name="first_name" placeholder="Иван" required>
+                        </div>
+
+                        <div class="order__formField">
+                            <label for="lastName">Фамилия</label>
+                            <input type="text" id="lastName" name="last_name" placeholder="Иванов" required>
+                        </div>
+
+                        <div class="order__formField order__formFieldWide">
+                            <label for="address">Адрес доставки</label>
+                            <input type="text" id="address" name="address" placeholder="г. Москва, ул. Пушкина, д. 10, кв. 5" required>
+                        </div>
+
+                        <div class="order__formField order__formFieldWide">
+                            <label for="phone">Телефон</label>
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                inputmode="tel"
+                                placeholder="+7 999 123-45-67"
+                                pattern="^\\+?\\d[\\d\\s\\-\\(\\)]{7,}$"
+                                required>
+                        </div>
+                    </div>
+
+                    <div class="order__formFooter">
+                        <button class="order__formSubmit" type="submit">Создать заказ</button>
+                    </div>
+                </form>
+
+            </div>
+        </section>
     </main>
     <script src="js/cart.js"></script>
 </body>

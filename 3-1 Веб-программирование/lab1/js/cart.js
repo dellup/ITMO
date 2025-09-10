@@ -95,3 +95,13 @@ function updateTotal() {
     htmlTotal.textContent = "Итоговая стоимость: " + total;
     return total;
 }
+
+
+const form = document.querySelector(".order__form");
+form.addEventListener("submit", () => {
+    setCart({});                      
+    renderCart();                     
+    updateTotal();                    
+    alert("Заказ успешно создан.");
+
+})
