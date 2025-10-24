@@ -1,0 +1,170 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+  color: #222;
+  line-height: 1.5;
+}
+
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+header {
+  background: #2c7be5;
+  color: white;
+  padding: 20px 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  text-align: center;
+}
+
+.controls {
+  background: #fff;
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.controls__form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.controls__formInput,
+.controls__formInput[type="date"] {
+  flex: 1;
+  min-width: 200px;
+  padding: 8px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.controls__formButton {
+  background: #2c7be5;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.controls__filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.controls__filter {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.controls__filter label {
+  margin-bottom: 4px;
+  color: #333;
+}
+
+.controls__filterInput,
+.controls__filterSelect {
+  padding: 6px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.list {
+  margin-top: 20px;
+}
+
+.list__ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card:hover {
+  background: #f3f6fa;
+  border-color: #c8d5f1;
+}
+
+.card--completed .card__title {
+  text-decoration: line-through;
+  color: #777;
+}
+
+.card__drag {
+  cursor: grab;
+  color: #aaa;
+  font-weight: bold;
+  padding-right: 8px;
+}
+
+.card__main {
+  flex: 1;
+}
+
+.card__title {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.card__meta {
+  font-size: 13px;
+  color: #666;
+}
+
+.card__actions {
+  display: flex;
+  gap: 5px;
+}
+
+.btn {
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px 8px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #ddd;
+}
+
+
+.card--dragover {
+  border-color: #2c7be5;
+}
+
+.card__drag {
+  cursor: grab;
+  user-select: none;
+}
+
+.dragging {
+  opacity: 0.85;
+}
