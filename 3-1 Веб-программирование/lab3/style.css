@@ -1,0 +1,92 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+  color: #222;
+  line-height: 1.5;
+}
+
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+header {
+  background: #2c7be5;
+  color: white;
+  padding: 20px 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  text-align: center;
+}
+
+.main__btn {
+    display: none;
+}
+
+.main__board {
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    grid-template-rows: repeat(4, 80px);
+    gap: 5px;
+    width: max-content;
+    margin: 20px auto;
+    background: #bbada0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.tile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #776e65;
+    border-radius: 3px;
+    background: #cdc1b4;
+    animation: tile-pop 0.12s ease-out;
+}
+
+@keyframes tile-pop {
+  from {
+    transform: scale(0.9);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.tile-merged {
+  animation: tile-merge 0.18s ease-out;
+}
+
+@keyframes tile-merge {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.18); }
+  100% { transform: scale(1); }
+}
+
+.tile-2    { background: #eee4da; }
+.tile-4    { background: #ede0c8; }
+.tile-8    { background: #f2b179; color: #f9f6f2; }
+.tile-16   { background: #f59563; color: #f9f6f2; }
+.tile-32   { background: #f67c5f; color: #f9f6f2; }
+.tile-64   { background: #f65e3b; color: #f9f6f2; }
+.tile-128  { background: #edcf72; color: #f9f6f2; }
+.tile-256  { background: #edcc61; color: #f9f6f2; }
+.tile-512  { background: #edc850; color: #f9f6f2; }
+.tile-1024 { background: #edc53f; color: #f9f6f2; }
+.tile-2048 { background: #edc22e; color: #f9f6f2; }
+
+@media screen and (max-width: 1000px) {
+    .main__btn {
+        display: block;
+    }
+}
