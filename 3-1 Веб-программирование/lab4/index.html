@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>оу погода на улице... ужасна</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="title">Погоденный прогноз</h1>
+      <div class="topbar">
+        <button class="btn btn-refresh">Обновить</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="add">
+      <div class="add__row">
+        <div class="add__col">
+          <label class="label">Добавить город</label>
+          <input class="input city-input" type="text" placeholder="Начните вводить..." autocomplete="off" />
+          <div class="hint error city-error"></div>
+          <div class="dropdown city-dropdown"></div>
+        </div>
+        <div class="add__col add__col--btn">
+          <button class="btn btn-add">Добавить</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="tabs">
+      <div class="tabs__row locations-row"></div>
+    </section>
+
+    <section class="cards">
+      <div class="cards__wrap cards-wrap"></div>
+    </section>
+  </main>
+
+  <div class="overlay overlay-hidden">
+    <div class="modal">
+      <div class="modal__title">Нет доступа к геолокации</div>
+      <div class="modal__text">Введите город вручную, чтобы получить прогноз.</div>
+      <button class="btn btn-close-modal">Ок</button>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
