@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title></title>
+  <style>
+    body{font-family:system-ui,Segoe UI,Roboto,Arial;display:flex;flex-direction:column;gap:12px;align-items:center;justify-content:center;height:100vh;margin:0}
+    main{max-width:680px;padding:20px;border-radius:12px;box-shadow:0 6px 24px rgba(0,0,0,0.08)}
+    h1{margin:0 0 8px}
+    h4{margin:0;color:#444}
+  </style>
+</head>
+<body>
+  <main>
+    <h1 id="result">Подсчёт простых чисел:</h1>
+    <h4 id="login">dellup</h4>
+  </main>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+      try {
+        var raw = location.search; // ожидаем формат "?123456"
+        if (!raw || raw.length < 2) {
+          document.title = '';
+          document.getElementById('result').textContent = 'Число N не найдено в адресе.';
+          return;
+        }
+        var str = raw.substring(1); // убираем '?'
+        str = str.replace(/\s+/g, '');
+        var N = parseInt(str, 10);
+        if (!isFinite(N) || N < 2) {
+          document.title = '0';
+          document.getElementById('result').textContent = 'Количество простых чисел в диапазоне [2, ' + (isFinite(N) ? N : 'N') + ']: 0';
+          return;
+        }        var limit = N;
+        var sieve = new Uint8Array(limit + 1);
+        sieve.fill(1);
+        sieve[0] = 0; sieve[1] = 0;
+        var p = 2;
+        var sqrtL = Math.floor(Math.sqrt(limit));
+        while (p <= sqrtL) {
+          if (sieve[p]) {
+            for (var m = p * p; m <= limit; m += p) sieve[m] = 0;
+          }
+          p++;
+        }
+        var count = 0;
+        for (var i = 2; i <= limit; i++) if (sieve[i]) count++;
+        document.title = String(count);
+        document.getElementById('result').textContent = 'Количество простых чисел в диапазоне [2, ' + N + ']: ' + count;
+      } catch (e) {
+        document.title = '';
+        document.getElementById('result').textContent = 'Ошибка при обработке числа в адресе.';
+      }
+    });
+  </script>
+</body>
+</html>
