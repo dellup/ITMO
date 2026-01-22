@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>sort-app</title>
+  <style>
+    body{font-family:system-ui,Segoe UI,Roboto,Arial;display:flex;flex-direction:column;gap:12px;align-items:center;justify-content:center;height:100vh;margin:0}
+    main{max-width:680px;padding:20px;border-radius:12px;box-shadow:0 6px 24px rgba(0,0,0,0.08)}
+    h1{margin:0 0 8px}
+    h4{margin:0;color:#444}
+  </style>
+</head>
+<body>
+  <main>
+    <h1 id="result">Отсортированный массив:</h1>
+    <h4 id="login">dellup</h4>
+  </main>
+
+  <script>
+    // Нативный JS: берём часть после '?' и ожидаем, что это JSON-массив в виде [55,33,44]
+    document.addEventListener('DOMContentLoaded', function () {
+      try {
+        var raw = location.search; // например "?[55,33,44]"
+        if (!raw || raw.length < 2) {
+          // если нет массива — показываем пустой результат
+          document.title = '';
+          document.getElementById('result').textContent = 'Массив не найден в адресе.';
+          return;
+        }
+        var payload = raw.substring(1); // убираем ведущий '?'
+        // Попробуем распарсить как JSON; если формат неверный — выбросим ошибку
+        var arr = JSON.parse(payload);
+        if (!Array.isArray(arr)) throw new Error('not array');
+        // Приводим элементы к числам и сортируем числово
+        for (var i = 0; i < arr.length; i++) {
+          arr[i] = Number(arr[i]);
+          if (!isFinite(arr[i])) arr[i] = 0;
+        }
+        arr.sort(function(a,b){ return a - b; });
+        // Вывод в заголовок окна (toString)
+        document.title = arr.toString();
+        // А также показываем на странице
+        document.getElementById('result').textContent = 'Отсортированный массив: ' + arr.toString();
+        // В заголовке h4 уже указан логин — оставляем как есть
+      } catch (e) {
+        document.title = '';
+        document.getElementById('result').textContent = 'Ошибка при разборе массива в адресе.';
+      }
+    });
+  </script>
+</body>
+</html>
